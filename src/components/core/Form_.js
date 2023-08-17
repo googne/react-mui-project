@@ -13,7 +13,7 @@ import {
   TextField,
 } from '@mui/material'
 import React, { useState } from 'react'
-import NextLine from './NextLine'
+import NextLine from './../NextLine'
 
 const Form_ = () => {
   const [inputs, setInputs] = useState({

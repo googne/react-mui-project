@@ -1,6 +1,6 @@
 import { Typography } from '@mui/material'
 import React from 'react'
-import NextLine from './NextLine'
+import NextLine from './../NextLine'
 
 const Typography_ = () => {
   return (

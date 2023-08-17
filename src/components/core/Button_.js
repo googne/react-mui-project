@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from '@mui/material'
-import NextLine from './NextLine'
+import NextLine from './../NextLine'
 
 const Button_ = () => {
   return (
