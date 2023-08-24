@@ -9,16 +9,26 @@ import Card_ from './components/core/Card_'
 import Test from './components/Test'
 import Dialog_ from './components/core/Dialog_'
 import Modal_ from './components/core/Modal_'
+import FormValidate_ from './components/core/FormValidate_'
+import DataGrid_ from './components/core/DataGrid_'
 
 function App() {
   return (
     <>
-      {/* Part4: 6: Advance Components */}
       <Enable>
+        {/* Part5: 7: Form Validation react-hook */}
+        <FormValidate_ />
+        {/* Part5: 7: Form Validation react-hook */}
+        <DataGrid_ />
+        {/* Part5: 7: Form Validation react-hook */}
+        {/* <FormValidate_ /> */}
+      </Enable>
+
+      {/* Part4: 6: Advance Components */}
+      <Enable off>
         <Card_ />
         <Dialog_ />
         <Modal_ />
-        {/* <Test /> */}
       </Enable>
 
       {/* Part3: 5: Header Navigation Bar */}
